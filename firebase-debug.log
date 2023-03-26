@@ -76,3 +76,29 @@
     at async deploy (C:\Users\prakh\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:53:13)
 [error] 
 [error] Error: An unexpected error has occurred.
+[debug] [2023-03-26T08:16:34.423Z] ----------------------------------------------------------------------
+[debug] [2023-03-26T08:16:34.425Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\prakh\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --debug
+[debug] [2023-03-26T08:16:34.425Z] CLI Version:   11.25.1
+[debug] [2023-03-26T08:16:34.425Z] Platform:      win32
+[debug] [2023-03-26T08:16:34.425Z] Node Version:  v18.15.0
+[debug] [2023-03-26T08:16:34.426Z] Time:          Sun Mar 26 2023 13:46:34 GMT+0530 (India Standard Time)
+[debug] [2023-03-26T08:16:34.426Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-26T08:16:34.478Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-26T08:16:34.479Z] > authorizing via signed-in user (prakhar.prakhar.mishra1@gmail.com)
+[debug] [2023-03-26T08:16:34.479Z] [iam] checking project v1bwr-a1957 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-03-26T08:16:34.481Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/v1bwr-a1957:testIamPermissions [none]
+[debug] [2023-03-26T08:16:34.482Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/v1bwr-a1957:testIamPermissions x-goog-quota-user=projects/v1bwr-a1957
+[debug] [2023-03-26T08:16:34.482Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/v1bwr-a1957:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-03-26T08:16:36.341Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/v1bwr-a1957:testIamPermissions 200
+[debug] [2023-03-26T08:16:36.342Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/v1bwr-a1957:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-03-26T08:16:36.343Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/v1bwr-a1957 [none]
+[debug] [2023-03-26T08:16:36.947Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/v1bwr-a1957 200
+[debug] [2023-03-26T08:16:36.948Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/v1bwr-a1957 {"projectId":"v1bwr-a1957","projectNumber":"195905846118","displayName":"v1bwr","name":"projects/v1bwr-a1957","resources":{"hostingSite":"v1bwr-a1957"},"state":"ACTIVE","etag":"1_68e51102-f60c-446b-81da-65ac99713be5"}
+[debug] [2023-03-26T08:16:58.517Z] Error
+    at scheduleTarget (C:\Users\prakh\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\angular\index.js:53:19)
+    at async build (C:\Users\prakh\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\angular\index.js:65:9)
+    at async prepareFrameworks (C:\Users\prakh\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\index.js:261:108)
+    at async deploy (C:\Users\prakh\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:53:13)
+[error] 
+[error] Error: An unexpected error has occurred.
