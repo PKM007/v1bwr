@@ -1,0 +1,36 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+  background-color: #fc6203;
+  color: white;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+mat-toolbar {
+  background-color: #fc6203;
+  z-index: 900;
+}
+
+a:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.icon-button {
+  background: none;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+.icon-button .icon {
+  width: 28px;
+}
